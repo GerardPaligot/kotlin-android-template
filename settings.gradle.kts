@@ -21,6 +21,7 @@ rootProject.name = ("kotlin-android-template")
 
 include(
     "app",
+    "app-compose",
     "library-android",
     "library-kotlin"
 )

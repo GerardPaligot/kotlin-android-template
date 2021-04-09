@@ -13,6 +13,8 @@ object Versions {
     const val ESPRESSO_CORE = "3.3.0"
     const val JUNIT = "4.13.2"
     const val KTLINT = "0.40.0"
+    const val COMPOSE = "1.0.0-beta04"
+    const val COMPOSE_ACTIVITY = "1.3.0-alpha05"
 }
 
 object BuildPluginsVersion {
@@ -27,6 +29,13 @@ object SupportLibs {
     const val ANDROIDX_CORE_KTX = "androidx.core:core-ktx:${Versions.CORE_KTX}"
 }
 
+object ComposeLibs {
+    const val COMPOSE_UI = "androidx.compose.ui:ui:${Versions.COMPOSE}"
+    const val COMPOSE_MATERIAL = "androidx.compose.material:material:${Versions.COMPOSE}"
+    const val COMPOSE_TOOLING = "androidx.compose.ui:ui-tooling:${Versions.COMPOSE}"
+    const val COMPOSE_ACTIVITY = "androidx.activity:activity-compose:${Versions.COMPOSE_ACTIVITY}"
+}
+
 object TestingLib {
     const val JUNIT = "junit:junit:${Versions.JUNIT}"
 }
@@ -35,5 +44,6 @@ object AndroidTestingLib {
     const val ANDROIDX_TEST_RULES = "androidx.test:rules:${Versions.ANDROIDX_TEST}"
     const val ANDROIDX_TEST_RUNNER = "androidx.test:runner:${Versions.ANDROIDX_TEST}"
     const val ANDROIDX_TEST_EXT_JUNIT = "androidx.test.ext:junit:${Versions.ANDROIDX_TEST_EXT}"
+    const val COMPOSE_TEST_JUNIT = "androidx.compose.ui:ui-test-junit4:${Versions.COMPOSE}"
     const val ESPRESSO_CORE = "androidx.test.espresso:espresso-core:${Versions.ESPRESSO_CORE}"
 }
